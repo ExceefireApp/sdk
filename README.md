@@ -1,134 +1,41 @@
-# 🚀 Exceefire
+# Exceefire
 
-[![Website](https://img.shields.io/website?url=https://exceefire.app)](https://exceefire.app/)  
-[![Twitter](https://img.shields.io/twitter/follow/ExceefireChain?style=social)](https://x.com/ExceefireChain)
+**Exceefire** is a decentralized leveraged trading platform built on the **Solana** blockchain, designed for fast, low-cost, and scalable on-chain trading—without compromising decentralization or composability.  
 
-**Exceefire** adalah protokol on-chain untuk leveraged trading yang dibangun di atas Solana, menghadirkan pengalaman trading yang cepat, biaya rendah, serta tetap menjaga desentralisasi dan komposabilitas.
-
----
-
-## 🔎 Overview
-
-Exceefire dirancang untuk menyediakan infrastruktur leveraged trading yang:
-
-- ⚡ Cepat — Eksekusi instan dengan throughput tinggi Solana  
-- 💸 Biaya rendah — Gas fee sangat murah  
-- 🔗 Fully on-chain — Tanpa ketergantungan sistem tersentralisasi  
-- 🧩 Composable — Mudah terintegrasi dengan protokol DeFi lain  
+[🌐 Website](https://exceefire.app/) | [🐦 Twitter](https://x.com/ExceefireChain)
 
 ---
 
-## 🧠 Core Features
+## Features
 
-- On-chain leveraged trading
-- Decentralized margin management
-- Real-time position monitoring
-- High-speed order execution
-- Risk engine berbasis smart contract
-- Non-custodial
+- ⚡ **High-Speed Trading**: Leveraging Solana’s low-latency architecture for instant trade execution.  
+- 💸 **Low Fees**: Minimal transaction costs, making leveraged trading efficient and accessible.  
+- 🔗 **Decentralized & Composable**: Fully on-chain, compatible with other Solana-based protocols.  
+- 📈 **Leveraged Positions**: Trade with leverage directly on-chain while maintaining security.  
 
 ---
 
-## 🌐 Official Links
+## How It Works
 
-Website: https://exceefire.app/  
-Twitter (X): https://x.com/ExceefireChain  
+1. Connect your Solana-compatible wallet (e.g., Phantom, Solflare).  
+2. Deposit collateral into the protocol.  
+3. Open leveraged positions on supported trading pairs.  
+4. Monitor and manage positions in real-time.  
+5. Close positions and withdraw profits seamlessly.  
 
 ---
 
-## 🛠️ Installation
-
-### Clone Repository
+## Getting Started
 
 ```bash
-git clone https://github.com/your-username/exceefire.git
-cd exceefire
-```
+# Clone the repository
+git clone https://github.com/YourUsername/Exceefire.git
 
-### Install Dependencies
+# Navigate to the project
+cd Exceefire
 
-```bash
+# Install dependencies
 npm install
-# atau
-yarn install
-```
 
----
-
-## ⚙️ Environment Setup
-
-Buat file `.env` berdasarkan `.env.example`:
-
-```bash
-cp .env.example .env
-```
-
-Contoh konfigurasi:
-
-```env
-RPC_ENDPOINT=https://api.mainnet-beta.solana.com
-PROGRAM_ID=YourProgramIdHere
-WALLET_PRIVATE_KEY=your_private_key_here
-```
-
----
-
-## 🚀 Development
-
-### Build Project
-
-```bash
-npm run build
-```
-
-### Start Development Server
-
-```bash
-npm run dev
-```
-
----
-
-## 📦 Example Usage (SDK)
-
-```javascript
-import { ExceefireClient } from "@exceefire/sdk";
-
-const client = new ExceefireClient({
-  rpcEndpoint: process.env.RPC_ENDPOINT,
-  walletKeypair: yourWallet,
-});
-
-await client.openPosition({
-  market: "BTC-USD",
-  size: 1,
-  leverage: 5,
-});
-```
-
----
-
-## 🤝 Contributing
-
-1. Fork repository ini  
-2. Buat branch baru (`feature/your-feature`)  
-3. Commit perubahan  
-4. Push & buat Pull Request  
-
-Kami terbuka untuk kontribusi!
-
----
-
-## 📜 License
-
-MIT License. Lihat file `LICENSE` untuk detail lengkap.
-
----
-
-## ⚠️ Disclaimer
-
-Perdagangan leveraged memiliki risiko tinggi dan dapat menyebabkan kerugian besar. Gunakan platform ini dengan tanggung jawab penuh. Exceefire bukan merupakan saran investasi.
-
----
-
-Built for the future of decentralized leveraged trading on Solana.
+# Run the application locally
+npm run start
