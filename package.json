@@ -1,0 +1,12 @@
+{
+  "name": "exceefire",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "anchor build",
+    "deploy": "anchor deploy"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.0"
+  }
+}
