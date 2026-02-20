@@ -1,0 +1,13 @@
+{
+  "name": "exceefire-sdk",
+  "version": "0.1.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.27.0",
+    "@solana/web3.js": "^1.73.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.0"
+  }
+}
